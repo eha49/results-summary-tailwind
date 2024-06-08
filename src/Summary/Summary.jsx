@@ -3,7 +3,7 @@ import Scores from "../Scores/Scores";
 function Summary() {
   return (
     <div className="flex flex-col basis-64 grow gap-4 p-8">
-      <h1 className="text-base text-black font-semibold mt-3">
+      <h1 className="text-base text-black font-semibold mt-4">
         Summary
       </h1>
       <Scores />
