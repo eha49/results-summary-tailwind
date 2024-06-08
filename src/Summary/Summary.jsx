@@ -7,7 +7,7 @@ function Summary() {
         Summary
       </h1>
       <Scores />
-      <button className="bg-slate-700 text-slate-50 font-semibold py-3 rounded-full">
+      <button className="bg-slate-700 hover:bg-blue-600 text-slate-50 font-semibold py-3 rounded-full">
         Continue
       </button>
     </div>
