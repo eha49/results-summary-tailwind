@@ -1,5 +1,38 @@
 @tailwind base;
 @tailwind components;
+
+.score:nth-of-type(1) {
+  @apply bg-rose-100;
+}
+
+.score:nth-of-type(1) div:first-child span {
+  @apply text-rose-600;
+}
+
+.score:nth-of-type(2) {
+  @apply bg-orange-100;
+}
+
+.score:nth-of-type(2) div:first-child span {
+  @apply text-orange-500;
+}
+
+.score:nth-of-type(3) {
+  @apply bg-green-100;
+}
+
+.score:nth-of-type(3) div:first-child span {
+  @apply text-green-500;
+}
+
+.score:nth-of-type(4) {
+  @apply bg-indigo-100;
+}
+
+.score:nth-of-type(4) div:first-child span {
+  @apply text-indigo-500;
+}
+
 @tailwind utilities;
 
 @layer base {
